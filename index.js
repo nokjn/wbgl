@@ -2,6 +2,7 @@ import { clear } from "/wbgl.module.js";
 
 (()=>{
   
+alert(System);
 alert(clear);
 
 const tow = typeof window;
