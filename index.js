@@ -1,9 +1,9 @@
-import { clear } from "/wbgl.module.js";
+//import { clear } from "/wbgl.module.js";
 
 (()=>{
   
-alert(System);
-alert(clear);
+alert(typeof System);
+//alert(clear);
 
 const tow = typeof window;
 const ib = "object" == tow;
