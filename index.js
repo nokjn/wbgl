@@ -1,4 +1,4 @@
-import { clear } from "wbgl.module.js";
+import { clear } from "/wbgl.module.js";
 
 (()=>{
   
