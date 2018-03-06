@@ -1,4 +1,8 @@
+import { clear } from "wbgl.module.js";
+
 (()=>{
+  
+alert(clear);
 
 const tow = typeof window;
 const ib = "object" == tow;
