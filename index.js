@@ -1,18 +1,14 @@
-//import { clear } from "/wbgl.module.js";
+import { clear } from "./wbgl.module.js";
 
 (()=>{
   
-alert(typeof System);
-//alert(clear);
-
-const tow = typeof window;
-const ib = "object" == tow;
-
-const g = ib ? window : global;
-
-g.nokjn = g.nokjn || {};
-g.nokjn.wbgl = {};
+return Promise.resolve()
+.then(main=>{
   
-alert(g.nokjn);
+alert(clear);
+  
+})
+.catch(alert)
+;
 
 })();
